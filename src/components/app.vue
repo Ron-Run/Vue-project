@@ -7,9 +7,9 @@
         <nav class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active" href="#tabbar">
 				<span class="mui-icon iconfont iconshoucang1"></span>
-				<span class="mui-tab-label">首页</span>   
+				<span class="mui-tab-label">首页</span>      
 			</a>
-			<a class="mui-tab-item" href="#tabbar-with-chat">
+			<a class="mui-tab-item" href="#tabbar-with-chat">   
 				<span class="mui-icon iconfont iconzhifu"></span>
 				<span class="mui-tab-label">消息</span>
 			</a>
