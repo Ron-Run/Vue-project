@@ -15,7 +15,7 @@
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-contact">
 				<span class="mui-icon iconfont iconkefu1"></span>
-				<span class="mui-tab-label">通讯录</span>
+				<span class="mui-tab-label">通讯录</span>   
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-map">
 				<span class="mui-icon iconfont iconfenxiang-copy1"></span>
