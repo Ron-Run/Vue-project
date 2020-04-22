@@ -1,0 +1,72 @@
+{
+  "id": "1662357",
+  "name": "轻松购",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "购物商城",
+  "glyphs": [
+    {
+      "icon_id": "8341932",
+      "name": "支付",
+      "font_class": "zhifu",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "10614943",
+      "name": "分 享",
+      "font_class": "fenxiang-copy1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6606448",
+      "name": "收 藏",
+      "font_class": "shoucang1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7448454",
+      "name": "收货地址",
+      "font_class": "shouhuodizhi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7828857",
+      "name": "付款通知",
+      "font_class": "fukuantongzhi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8576264",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9439450",
+      "name": "服务评价-客服",
+      "font_class": "kefu1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9938413",
+      "name": "订单",
+      "font_class": "icon-",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "13098545",
+      "name": "购物车",
+      "font_class": "che1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
