@@ -1,33 +1,38 @@
 <!--  -->
 <template>
     <div class="head">
-        <mt-header fixed title="测试项目"></mt-header>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, fugiat!
+        <mt-header fixed title="测试项目" class="change"></mt-header>
+        <transition>
+            <router-view></router-view>
+        </transition>
+        
 
         <nav class="mui-bar mui-bar-tab">
-			<a class="mui-tab-item mui-active" href="#tabbar">
+			<router-link class="mui-tab-item" to="/home">
 				<span class="mui-icon iconfont iconshoucang1"></span>
 				<span class="mui-tab-label">首页</span>      
-			</a>
-			<a class="mui-tab-item" href="#tabbar-with-chat">   
+			</router-link>
+			<router-link class="mui-tab-item" to="/message">   
 				<span class="mui-icon iconfont iconzhifu"></span>
 				<span class="mui-tab-label">消息</span>
-			</a>
-			<a class="mui-tab-item" href="#tabbar-with-contact">
+			</router-link>
+			<router-link class="mui-tab-item" to="/communicate">
 				<span class="mui-icon iconfont iconkefu1"></span>
 				<span class="mui-tab-label">通讯录</span>   
-			</a>
-			<a class="mui-tab-item" href="#tabbar-with-map">
+			</router-link>
+			<router-link class="mui-tab-item" to="/setting">
 				<span class="mui-icon iconfont iconfenxiang-copy1"></span>
 				<span class="mui-tab-label">设置</span>
-			</a>
+			</router-link>
 		</nav>
+        
     </div>
 </template>
 
 <script>
 //这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
 //例如：import 《组件名称》 from '《组件路径》';
+
 
 export default {
 //import引入的组件需要注入到对象中才能使用
@@ -65,7 +70,24 @@ export default {
 </script>
 <style lang='less' scoped>
 .head{
+    overflow-x: hidden;
     padding-top: 40px;
+    .change{
+        font-size: 18px;
+    }
 }
+
+.v-enter{
+    opacity: 0;
+    transform: translateX(100%)
+}
+.v-leave-to{
+    transform: translateX(-100%)
+}
+.v-enter-active{
+    transition: all .3s ease;
+    position: absolute;
+}
+
 
 </style>
